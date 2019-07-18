@@ -18,8 +18,8 @@ build:
 
 requirements:
   build:
-    - 7za::anaconda
     - m2-patch
+    # - 7za::anaconda
 
 test:
   commands:

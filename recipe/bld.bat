@@ -1,4 +1,4 @@
-REM conda install -y -c anaconda 7za
+conda install -y -c anaconda 7za || exit 1
 set "_bash_dir=%LIBRARY_PREFIX%\git-bash"
 mkdir "%_bash_dir%" || exit 1
 7za x PortableGit-%PKG_VERSION%-%ARCH%-bit.7z.exe -o"%_bash_dir%" -aoa || exit 1
