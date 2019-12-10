@@ -16,9 +16,9 @@ requirements:
 test:
   commands:
     - bash --version
-    - git -- version
-    # - |
-    #   bash -c "if [[ $(echo hello | cp /dev/stdin /dev/stdout) != 'hello' ]]; then exit 1; fi"
+    - git --version
+    - |
+      bash -c "if [[ $(echo hello | cp /dev/stdin /dev/stdout) != 'hello' ]]; then exit 1; fi"
 
 about:
   home: https://anaconda.org/conda-forge/git
